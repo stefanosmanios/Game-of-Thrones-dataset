@@ -3,10 +3,10 @@ import pandas as pd
 import psycopg2
 import numpy as np
 
-file1 = "C:/Users/manio/Desktop/data science/data managment/mini project/miniproject/csv_GameofThrones_dataset/characters.csv"
-file2 = "C:/Users/manio/Desktop/data science/data managment/mini project/miniproject/csv_GameofThrones_dataset/episodes.csv"
-file3 = "C:/Users/manio/Desktop/data science/data managment/mini project/miniproject/csv_GameofThrones_dataset/locations.csv"
-file4 = "C:/Users/manio/Desktop/data science/data managment/mini project/miniproject/csv_GameofThrones_dataset/keyValues.csv"
+file1 = "1st Part/csv_GameofThrones_dataset/characters.csv"
+file2 = "1st Part/csv_GameofThrones_dataset/episodes.csv"
+file3 = "1st Part/csv_GameofThrones_dataset/locations.csv"
+file4 = "1st Part/csv_GameofThrones_dataset/keyValues.csv"
 
 def populate_character_table(characters_df,conn):
     cur = conn.cursor()
